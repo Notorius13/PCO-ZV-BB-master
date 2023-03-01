@@ -1,0 +1,76 @@
+footer {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.us h3 {
+  color: rgba(255, 196, 0, 0.8);
+  text-shadow: 1px 1px 0 #000;
+}
+#about-us {
+  padding: 1rem 0;
+}
+
+.aboutus {
+  padding-left: 2rem;
+}
+.links {
+  margin-top: 0rem;
+}
+.newslatter {
+  padding-left: 2rem;
+}
+.us p {
+  margin-bottom: 2rem;
+  padding: 0;
+  font-size: 0.8rem;
+  text-shadow: 1px 1px 0 black;
+}
+
+.links h3 {
+  padding-left: 2rem;
+}
+
+.post-footer {
+  text-align: center;
+  padding-bottom: 3rem;
+}
+.post-footer p {
+  font-size: 0.5rem;
+}
+.links ul {
+  padding-left: 32px;
+}
+.links li {
+  display: block;
+  padding-bottom: 1rem;
+}
+.links a {
+  transition: 0.3s all ease-in-out;
+  font-size: 0.8rem;
+}
+.links a:hover,
+.links a:active,
+.links a:focus {
+  color: rgba(255, 196, 0, 0.8);
+}
+@media screen and (min-width: 800px) {
+  .us {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 2rem;
+  }
+
+  .us p {
+    margin: 0;
+    padding: 0;
+    padding-top: 1rem;
+    text-shadow: 1px 1px 0 black;
+  }
+
+  .aboutus {
+    padding-left: 2rem;
+  }
+  .post-footer {
+    text-align: right;
+    padding-bottom: 3rem;
+  }
+}

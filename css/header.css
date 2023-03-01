@@ -1,0 +1,148 @@
+header {
+  height: 1200px;
+  background: url(../img/custom_resized_bcc68b5a-d2a2-423e-8483-6ce79726b87a.jpg)
+    no-repeat center center fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-attachment: scroll;
+  background-color: #fff;
+  display: flex;
+  align-items: flex-end;
+  box-sizing: content-box;
+}
+header:after {
+  content: "";
+  position: fixed; /* stretch a fixed position to the whole screen */
+  top: 0;
+  height: 100vh; /* fix for mobile browser address bar appearing disappearing */
+  left: 0;
+  right: 0;
+  z-index: -1; /* needed to keep in the background */
+  background: url(../img/black-1072366_1920.jpg) center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.main-nav {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 70px;
+}
+.main-nav {
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  z-index: 2;
+  top: 0rem;
+}
+
+.main-nav ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  padding: 1.25rem 0rem 0rem;
+}
+
+.main-nav li {
+  display: inline-block;
+  text-align: center;
+}
+
+.main-nav a {
+  font-size: clamp(8px, 2.6vw, 24px);
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: 0.3s all ease-in-out;
+}
+.main-nav a:hover,
+.main-nav a:active,
+.main-nav a:focus {
+  color: rgba(255, 196, 0, 0.8);
+}
+
+.logo {
+  width: 20vw;
+  text-align: left;
+}
+.logo img {
+  margin-left: 32px;
+}
+
+.text {
+  padding-top: 13.2rem;
+  text-align: center;
+  height: 450px;
+  border-radius: 0.3125rem;
+}
+
+.text h1 {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  font-size: 2.1875rem;
+  padding: 16px 16px;
+  line-height: 3.125rem;
+}
+
+.heading h2 {
+  font-size: 2.0625rem;
+}
+
+@media screen and (max-width: 31.25rem) {
+  header {
+    height: 640px;
+  }
+  .main-nav {
+    height: 48px;
+  }
+
+  .main-nav ul {
+    padding-bottom: 0.9375rem;
+  }
+  .main-nav li:last-child {
+    padding-bottom: 16px;
+  }
+  .main-nav li {
+    padding: 0 0 0.375rem 0;
+  }
+  .main-nav a {
+    font-size: 0.6875rem;
+    text-decoration: none;
+    transition: 0.3s all ease-in-out;
+  }
+  .text img {
+    display: none;
+    width: 6.25rem;
+    height: auto;
+  }
+  .text {
+    padding-top: 200px;
+    margin-bottom: 0px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    height: 480px;
+    border-radius: 0.3125rem;
+  }
+  .text h1 {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 100px;
+    font-size: 12px;
+    line-height: 1.5rem;
+  }
+  .feature {
+    height: 18.75rem;
+  }
+  footer {
+    margin-top: 5rem;
+  }
+}
+@supports (-webkit-touch-callout: none) {
+  header {
+    background-attachment: scroll;
+  }
+}
+@supports (-webkit-overflow-scrolling: touch) {
+  header {
+    background-attachment: scroll;
+  }
+}
