@@ -163,19 +163,19 @@ figure iframe {
 }
 
 .bb {
-  font-weight: bold;
+  font-weight: 800;
   text-shadow: 1px 1px 0 #000;
-  color: rgba(255, 196, 0, 1);
+  color: #ffc400;
 }
 .zv {
-  font-weight: bold;
-  text-shadow: 1px 1px 0 #000;
-  color: rgb(255, 64, 39);
+  font-weight: 800;
+  text-shadow: 1px 1px 0 #000000;
+  color: #f08e4a;
 }
 .vi {
-  font-weight: bold;
+  font-weight: 800;
   text-shadow: 1px 1px 0 #000;
-  color: rgb(98, 87, 252);
+  color: #d94e5a;
 }
 @media screen and (min-width: 800px) {
   .feature {
