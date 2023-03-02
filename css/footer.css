@@ -28,13 +28,14 @@ footer {
   padding-left: 2rem;
 }
 .us p {
-  margin-bottom: 2rem;
   padding: 0;
-  font-size: 0.8rem;
+  font-size: 0.6rem;
+  line-height: 30px;
   text-shadow: 1px 1px 0 black;
 }
 
 .links h3 {
+  margin-top: 6rem;
   padding-left: 2rem;
 }
 
@@ -54,7 +55,7 @@ footer {
 }
 .links a {
   transition: 0.3s all ease-in-out;
-  font-size: 0.8rem;
+  font-size: 0.6rem;
 }
 .links a:hover,
 .links a:active,
@@ -67,14 +68,15 @@ footer {
     grid-template-columns: 1fr 1fr;
     margin-top: 2rem;
   }
-
   .us p {
-    margin: 0;
     padding: 0;
-    padding-top: 1rem;
+    font-size: 0.8rem;
     text-shadow: 1px 1px 0 black;
   }
-
+  .links h3 {
+    margin-top: 0;
+    padding-left: 2rem;
+  }
   .aboutus {
     padding-left: 2rem;
   }
