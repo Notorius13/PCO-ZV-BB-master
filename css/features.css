@@ -162,6 +162,21 @@ figure iframe {
   }
 }
 
+.bb {
+  font-weight: bold;
+  text-shadow: 1px 1px 0 #000;
+  color: rgba(255, 196, 0, 1);
+}
+.zv {
+  font-weight: bold;
+  text-shadow: 1px 1px 0 #000;
+  color: rgb(255, 64, 39);
+}
+.vi {
+  font-weight: bold;
+  text-shadow: 1px 1px 0 #000;
+  color: rgb(98, 87, 252);
+}
 @media screen and (min-width: 800px) {
   .feature {
     display: flex;
