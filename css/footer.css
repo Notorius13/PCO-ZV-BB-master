@@ -62,6 +62,24 @@ footer {
 .links a:focus {
   color: rgba(255, 196, 0, 0.8);
 }
+#scroll-to-top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: opacity 0.2s ease-in-out;
+}
+
+#scroll-to-top:hover {
+  opacity: 0.7;
+}
+
 @media screen and (min-width: 800px) {
   .us {
     display: grid;
@@ -83,5 +101,9 @@ footer {
   .post-footer {
     text-align: right;
     padding-bottom: 3rem;
+  }
+  .links a {
+    transition: 0.3s all ease-in-out;
+    font-size: 0.8rem;
   }
 }
