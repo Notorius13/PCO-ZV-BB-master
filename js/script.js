@@ -46,4 +46,33 @@
       return false;
     });
   });
+  // Zmena popisu pre Domov
+  const domovSketch = document.querySelector("#Domov");
+  domovSketch
+    .querySelector('meta[name="description"]')
+    .setAttribute("content", "Domov");
+
+  // Zmena popisu pre Bohoslužby
+  const bohosluzbySketch = document.querySelector("#worshipservice");
+  bohosluzbySketch
+    .querySelector('meta[name="description"]')
+    .setAttribute("content", "Bohoslužby");
+
+  // Zmena popisu pre Publikácie
+  const publikacieSketch = document.querySelector("#publications");
+  publikacieSketch
+    .querySelector('meta[name="description"]')
+    .setAttribute("content", "Publikácie");
+
+  // Zmena popisu pre Hudbu
+  const hudbaSketch = document.querySelector("#music");
+  hudbaSketch
+    .querySelector('meta[name="description"]')
+    .setAttribute("content", "Hudba");
+
+  // Zmena popisu pre Kontakt
+  const kontaktSketch = document.querySelector("#about-us");
+  kontaktSketch
+    .querySelector('meta[name="description"]')
+    .setAttribute("content", "Kontakt");
 })(jQuery);
