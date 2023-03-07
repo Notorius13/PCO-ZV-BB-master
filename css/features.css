@@ -201,7 +201,7 @@ figure iframe {
     -webkit-text-size-adjust: 100%;
     --scroll-behavior: smooth;
     scroll-behavior: smooth;
-    scroll-padding-top: 7rem;
+    scroll-padding-top: 7.3rem;
   }
   .feature {
     display: flex;
