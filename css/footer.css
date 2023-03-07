@@ -4,6 +4,7 @@ footer {
 .us h3 {
   color: rgba(255, 196, 0, 0.8);
   text-shadow: 1px 1px 0 #000;
+  margin-bottom: 1rem;
 }
 #about-us {
   padding: 1rem 0;
@@ -29,13 +30,14 @@ footer {
 }
 .us p {
   padding: 0;
+  margin: 0;
   font-size: 0.6rem;
   line-height: 30px;
   text-shadow: 1px 1px 0 black;
 }
 
 .links h3 {
-  margin-top: 6rem;
+  margin-top: 2rem;
   padding-left: 2rem;
 }
 
@@ -70,7 +72,7 @@ footer {
   z-index: 999;
   background-color: #333;
   color: #fff;
-  padding: 10px 15px;
+  padding: 11px 14px;
   border-radius: 50%;
   cursor: pointer;
   transition: opacity 0.2s ease-in-out;
@@ -79,7 +81,18 @@ footer {
 #scroll-to-top:hover {
   opacity: 0.7;
 }
-
+.iban {
+  font-style: normal;
+  color: rgba(255, 196, 0, 0.8);
+}
+.color {
+  font-style: normal;
+  color: rgba(255, 196, 0, 0.8);
+}
+.bank {
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
 @media screen and (min-width: 800px) {
   .us {
     display: grid;
