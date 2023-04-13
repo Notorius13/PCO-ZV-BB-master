@@ -64,6 +64,16 @@ footer {
 .links a:focus {
   color: rgba(255, 196, 0, 0.8);
 }
+.social-icons {
+  padding-left: 32px;
+}
+
+.fa-brands {
+  font-size: 25px;
+}
+.fa-youtube {
+  padding-left: 10px;
+}
 #scroll-to-top {
   display: none;
   position: fixed;
